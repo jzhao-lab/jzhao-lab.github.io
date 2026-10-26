@@ -1,0 +1,467 @@
+[
+  {
+    "path": "public/assets/activities/brightpath-2022-1.webp",
+    "size": 530902,
+    "sha256": "8cad5d2b075cac934b803c9364cdcbcfbb380499098abb90d1ede9c54596faa5"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2022-2-upright.webp",
+    "size": 385250,
+    "sha256": "9a9caece6df8cf55de4989754d8f8533622b0da7e0c6f9e7b79cb5525d5519cd"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2022-2.webp",
+    "size": 330512,
+    "sha256": "96b854ca23606407b7d36354351206e18462cb3d1d57f625de32359a99d29d17"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2022-3.webp",
+    "size": 297226,
+    "sha256": "6182b3340255947775cfaaea1a61d0c78a3bc4a2593ad03cf971b0c2aaa7c92e"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2022-4.webp",
+    "size": 268970,
+    "sha256": "4100a902ccc584d0b1770742593878df6d8b886afd369ff0f71b7d476dac1b86"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2022-5.webp",
+    "size": 287736,
+    "sha256": "f9c0e2910e58c3d4f3ddc9d61a85ee8b63001fe8369dae3ce88b9c1f60165286"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2023-1.webp",
+    "size": 517052,
+    "sha256": "a036a3e372723b8ca5ced40df1a3874f11c890f8eda779cdef40a745505a5890"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2023-2.webp",
+    "size": 338698,
+    "sha256": "3c171c6d408d982873bf2720c1ba40e30eec8b8277a60a8f19cb1ab5fccbbdd5"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2023-3.webp",
+    "size": 449706,
+    "sha256": "2f54450b311f44ab79623a25ad4fbdc6714efce87096109a58b5eb768ae12544"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2023-4.webp",
+    "size": 391656,
+    "sha256": "9f4d966e7f328b6aee1ed747e49a7de60797ce371312b9b5aefa24e2bd2ac330"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2023-5.webp",
+    "size": 438690,
+    "sha256": "8b94d90bbf8c20a63b4314ba3f54f12831e77c2ac226f5701091977bf591c2c4"
+  },
+  {
+    "path": "public/assets/activities/brightpath-2023-6.webp",
+    "size": 372272,
+    "sha256": "808f18f004cdfe2d292f721ef1f2c9daa6b2708fcfb70ca1a647a40a28f2c749"
+  },
+  {
+    "path": "public/assets/activities/praxis-2023-1.webp",
+    "size": 338010,
+    "sha256": "5435da6aaf64889cd3adecaa128499a72d5ddb9676e857f02fdc80287a5e4471"
+  },
+  {
+    "path": "public/assets/activities/praxis-2023-2.webp",
+    "size": 317432,
+    "sha256": "c79456f561063ec422948ea869f44f3131bd5404ab03e3c3784ec2b59502be68"
+  },
+  {
+    "path": "public/assets/activities/praxis-2023-3-upright.webp",
+    "size": 298948,
+    "sha256": "064eaf51d6a22c30cfa78971b418d940ff10c61fc24d63f0ab2f43171dbfb680"
+  },
+  {
+    "path": "public/assets/activities/praxis-2023-3.webp",
+    "size": 255756,
+    "sha256": "0cd7052b4f95defc1afff75ae1672f9bc9513454be243293365271ff2c6b771d"
+  },
+  {
+    "path": "public/assets/activities/praxis-2023-4.webp",
+    "size": 281098,
+    "sha256": "c7abbd44149b32f619e1596168bec8ac570838bce4df0d2f7dda4495ee803af1"
+  },
+  {
+    "path": "public/assets/activities/praxis-2023-5.webp",
+    "size": 285596,
+    "sha256": "7bde1bd0ea8b37a2d965b5281a4be2af0567747a609334014364c34faaa59510"
+  },
+  {
+    "path": "public/assets/home/bioelectronics.png",
+    "size": 295493,
+    "sha256": "f82909ab84dc0eb3b5895f90342b87e178accc408122174f299eb2b9ba18dd2b"
+  },
+  {
+    "path": "public/assets/home/embodied.png",
+    "size": 313058,
+    "sha256": "b665be7452f26f0cd0fa6e2a4eed1efb53cfbcd8d1f7323489f95808045e2b31"
+  },
+  {
+    "path": "public/assets/home/headshot.jpg",
+    "size": 470181,
+    "sha256": "4599802b621383cb8a2a1e797c701d95546dc71b49018050bb78aaacfb39d84e"
+  },
+  {
+    "path": "public/assets/home/micro.png",
+    "size": 384003,
+    "sha256": "23c4329715a59b0f0b2f5e3d15f3729cc136ae9b6add004d054f244fc191ac8e"
+  },
+  {
+    "path": "public/assets/home/robotics.png",
+    "size": 488079,
+    "sha256": "2e204fb0ada0822935395210194069bee5d47838662474ebed914851ad1ae82c"
+  },
+  {
+    "path": "public/assets/join/uw-madison.webp",
+    "size": 288988,
+    "sha256": "92f8d135776370ad22137e2932553452a95db6f286f1ddc9ce05abad9d04ee32"
+  },
+  {
+    "path": "public/assets/publications/3D_E-textile_for_Exercise_Physilogy_and_Clinical_materanl_health.pdf",
+    "size": 6300387,
+    "sha256": "b14cacac953073f91ea6fc0ef47b04bf379bd5a14c5faa631dd85c726ce55812"
+  },
+  {
+    "path": "public/assets/publications/A_Low-Power_Impedance-to-Frequency_Converter_for_Frequency-Multiplexed_Wearable_Sensors.pdf",
+    "size": 3943771,
+    "sha256": "27dfc7a4eb118ed5ad8dc7e2df665e65db9f5da12d134630db5b3a30a9df57cb"
+  },
+  {
+    "path": "public/assets/publications/A_Portable_and_a_Scalable_Multi-Channel_Wireless_Recording_System_for_Wearable_Electromyometrial_Imaging.pdf",
+    "size": 3815522,
+    "sha256": "4bc5dcb3a20808384d6a0f46b76cf467d9f00535365663e966fec30c20922142"
+  },
+  {
+    "path": "public/assets/publications/A_Soft_Sponge_Sensor_for_Multimodal_Sensing_and_Distinguishing_ofPressure_Strain_and_Temperature.pdf",
+    "size": 6076819,
+    "sha256": "9c586492be663608ff7de490523845d0f670b2b1802742251acad789e65e96ec"
+  },
+  {
+    "path": "public/assets/publications/An_Inkjet-Printed_PEDOT-PSS-Based_Stretchable_Conductor_for_Wearable_Health_Monitoring_Device_Applications.pdf",
+    "size": 8835347,
+    "sha256": "0499b9a7715f1b8f8347ab05ca5422ec307088194a534b91183f5322024d1d36"
+  },
+  {
+    "path": "public/assets/publications/High_energy_density_in_artificial_heterostructuresthrough_relaxation_time_modulation.pdf",
+    "size": 2048997,
+    "sha256": "4a11328f1014739d4177c3c55b3a6974340ee35b1b8b55d3fb116b73ded10edd"
+  },
+  {
+    "path": "public/assets/publications/Marangoni_convection-driven_laser_fountains_on_free_surfaces_of_liquids.pdf",
+    "size": 2940950,
+    "sha256": "c65c24a4a6b49328a4e527d866843ca9bf334ce383cabe14938dad69eefe3da6"
+  },
+  {
+    "path": "public/assets/publications/Molding_patterninganddrivingliquids_withlight.pdf",
+    "size": 2943192,
+    "sha256": "491440f88853534c7ef6425ef13d0869cafed1f601fc875706a2b44620f6b08d"
+  },
+  {
+    "path": "public/assets/publications/Perspectives_on_2D_materials_for_hybrid_and_beyond-Si_image_sensor_applications.pdf",
+    "size": 4197039,
+    "sha256": "e3bf2cd8736c4110d4d33a4cf720235965a0f082a7db499ffbde4ebcc8458adb"
+  },
+  {
+    "path": "public/assets/publications/Rapid_Drying_Principle_for_High-speed_Pinhole-Less_Uniform_Wet_Deposition_Protocols_of_Water-Dispersed_2D_Materials.pdf",
+    "size": 14091742,
+    "sha256": "f7b65a58784a9f459d58affa0fcf4e394bf80a54d080efffe6f449299e2dfc24"
+  },
+  {
+    "path": "public/assets/publications/Stretchable_Sponge_Electrodes_for_Long-Term_and_Motion_Artifact_Tolerant_Recording_of_High-Quality_Electrophysiologic_Signals.pdf",
+    "size": 7482768,
+    "sha256": "dfd0cb5150327787e48a973833f6f94e47734a10cc56e62efd2d29fd7fa06454"
+  },
+  {
+    "path": "public/assets/publications/TouchpadAnyWear-_Textile-Integrated_Tactile_Sensors_for_Multimodal_High_Spatial-Resolution_Touch_Inputs_with_Motion_Artifacts_Tolerance.pdf",
+    "size": 23723265,
+    "sha256": "a194056db021206480d1008897f2c1ab9181b2443bf5869e61aafd8932f51f92"
+  },
+  {
+    "path": "public/assets/publications/Weavable_Reconfigurable_Triboelectric_Ferrofluid_Fiber_for_Early_Warning.pdf",
+    "size": 9969030,
+    "sha256": "4794f22b1f0dcb7ff98918f433909aeda89291c3a99f84c611f46f8ca3e51097"
+  },
+  {
+    "path": "public/assets/publications/Zhao-2023-Nature_Photonics.pdf",
+    "size": 3292965,
+    "sha256": "84c748fecaeb756ba59b7ee8f79fd96606961fd5c9a385abaf32e438696156bd"
+  },
+  {
+    "path": "public/assets/publications/Zhao_2021_Advanced_Materials.pdf",
+    "size": 6664145,
+    "sha256": "69bff3741c75e70015de535ec3a0514b446a80acefd9c54b772201b5a00cd27f"
+  },
+  {
+    "path": "public/assets/publications/flexible-carbon-nanotube-synaptic-transistor-for-neurological-electronic-skin-applications.pdf",
+    "size": 5887722,
+    "sha256": "cc40380048309f08aec3aa4acdde7f0e0c0ff66934c477908b11297f8e017a37"
+  },
+  {
+    "path": "public/assets/publications/multimodal-artificial-neurological-sensory-memory-system-based-on-flexible-carbon-nanotube-synaptic-transistor.pdf",
+    "size": 3956481,
+    "sha256": "0eace2d53e5a0df004d5f0dfc6bafb916660fe03c5551e0141c259472b8106c9"
+  },
+  {
+    "path": "public/assets/research/figure_3D_textile_new.png",
+    "size": 217262,
+    "sha256": "ac09bc502eeacdc6c9cf561999d56ac460019abd3d66500af16add9bf5d7feb8"
+  },
+  {
+    "path": "public/assets/research/figure_3D_textile_new.webp",
+    "size": 241238,
+    "sha256": "5c99fc8df885645ddfff587e8116b9997036d9f299842f9a8961ff46661a2815"
+  },
+  {
+    "path": "public/assets/research/figure_3D_textile_new_1.webp",
+    "size": 217262,
+    "sha256": "ac09bc502eeacdc6c9cf561999d56ac460019abd3d66500af16add9bf5d7feb8"
+  },
+  {
+    "path": "public/assets/research/figure_Hand_writing_perovskite.png",
+    "size": 2112280,
+    "sha256": "58549485ff5ac6a1fbc974f052585274bcaec00dd563b504f791ed0f16be39ca"
+  },
+  {
+    "path": "public/assets/research/figure_Hand_writing_perovskite.webp",
+    "size": 264922,
+    "sha256": "01fa8fce360f804486ec3d5a73c8e6947710a045e199b4ef67d4427f4e486ded"
+  },
+  {
+    "path": "public/assets/research/figure_Multimodal_artificial.webp",
+    "size": 172760,
+    "sha256": "dc46307511bc3cb9bb0df596c8607a0ef69f12fec8ec522f2141a1467f3369ae"
+  },
+  {
+    "path": "public/assets/research/figure_Printed_perovskite_LEDs.png",
+    "size": 129850,
+    "sha256": "235119fb5f386f40e6762717506ee504170e848ee9234c52d9d366973ac03141"
+  },
+  {
+    "path": "public/assets/research/figure_Printed_perovskite_LEDs.webp",
+    "size": 149708,
+    "sha256": "819bad66a938574fb88f86c0b33afdd5d45b403324166e059195712d73d6c82b"
+  },
+  {
+    "path": "public/assets/research/figure_Soft_Sponge.webp",
+    "size": 233514,
+    "sha256": "380bdb45d28c663cf104d04a9fa0ad445a5f704bae8172ffd5cd43daadcf083b"
+  },
+  {
+    "path": "public/assets/research/figure_Synaptic_transistors.webp",
+    "size": 186898,
+    "sha256": "dc7c82896e14d19145757d70c8608c0e03b51e98915d9ebabbb8b600b5d86954"
+  },
+  {
+    "path": "public/assets/research/figure_stretchable_sponge.webp",
+    "size": 313940,
+    "sha256": "d3c8f46af614a6ab9af1e6df1b81b428d29837315f83d8f34be88374294ec0f7"
+  },
+  {
+    "path": "public/assets/research/figure_touchpadanywear-2.png",
+    "size": 131450,
+    "sha256": "17541ccdbafca12385b25f96e9bd403d8b9dc5102dbb424692aedcf5fdb5ca4d"
+  },
+  {
+    "path": "public/assets/research/figure_touchpadanywear-3.png",
+    "size": 131450,
+    "sha256": "17541ccdbafca12385b25f96e9bd403d8b9dc5102dbb424692aedcf5fdb5ca4d"
+  },
+  {
+    "path": "public/assets/research/figure_touchpadanywear.webp",
+    "size": 164338,
+    "sha256": "5fb2d69d23b90260de6ea5c871e075925643e880713b6dbe1d92ed0dc4bb3aba"
+  },
+  {
+    "path": "public/assets/research/figure_touchpadanywear_hi.png",
+    "size": 131450,
+    "sha256": "17541ccdbafca12385b25f96e9bd403d8b9dc5102dbb424692aedcf5fdb5ca4d"
+  },
+  {
+    "path": "public/assets/research/original-figure_3D_textile_new.png",
+    "size": 8728987,
+    "sha256": "23e39cb2858c8050ca2b37269e17efa26566bdb72919ae09f512302da81501a8"
+  },
+  {
+    "path": "public/assets/research/original-figure_Hand_writing_perovskite.png",
+    "size": 2112280,
+    "sha256": "58549485ff5ac6a1fbc974f052585274bcaec00dd563b504f791ed0f16be39ca"
+  },
+  {
+    "path": "public/assets/research/original-figure_Printed_perovskite_LEDs.png",
+    "size": 2159446,
+    "sha256": "eba29c1b31edd47d31c69dde7d384469130812ab2c1be8050f44d861f8618e00"
+  },
+  {
+    "path": "public/assets/research/original-figure_touchpadanywear.png",
+    "size": 3317632,
+    "sha256": "5036922571fd441c76c32e12698e52e8d31d75980921c6deeb0a40e78504ef2e"
+  },
+  {
+    "path": "public/assets/research/original-touchpad_1.gif",
+    "size": 11608112,
+    "sha256": "afd542b3370852a2ae0116c0b5c74548be83e168bd21879d24a1cd4da41c1590"
+  },
+  {
+    "path": "public/assets/research/original-touchpad_2.gif",
+    "size": 6484938,
+    "sha256": "0a5a6c519dc2ff560759bd5a515f642f0df29c3de62ec2726796a4a2d7d4a57e"
+  },
+  {
+    "path": "public/assets/research/original-touchpad_3.gif",
+    "size": 8175835,
+    "sha256": "275cb41c911e6ca7622015ddb1ef9077bc91bf7cfa20d904aab8c0a96b80a5c5"
+  },
+  {
+    "path": "public/assets/research/original-touchpad_4.gif",
+    "size": 8256168,
+    "sha256": "6dff266444f00e54f38828294ad3d8440492bc663cb930849bb397d4ae9c4f71"
+  },
+  {
+    "path": "public/assets/research/original-touchpad_5.gif",
+    "size": 3340334,
+    "sha256": "ab9bf2c8a848b14b39b8bcdeb09f43af40ae21eb6f17b01246ddfb9f72de36ef"
+  },
+  {
+    "path": "public/assets/research/original-touchpad_6.gif",
+    "size": 3287575,
+    "sha256": "7f3b517b4ad46a27755e83bf11e4d9e4e402d4519bf83de197ae9170db101ab6"
+  },
+  {
+    "path": "public/assets/research/touchpad-2-poster.jpg",
+    "size": 39483,
+    "sha256": "3ece7ecbbb7407f1ad535c3e50654727ce63e6b0fab4861870ac3471d739d930"
+  },
+  {
+    "path": "public/assets/research/touchpad-2.mp4",
+    "size": 252436,
+    "sha256": "a52274cfcc7c7a038b863d79a3675242f34647df0e274a8210ae6658be47bb43"
+  },
+  {
+    "path": "public/assets/research/touchpad-2.webm",
+    "size": 206352,
+    "sha256": "97a595882fef1cc1251561bb26c44c0a1cab06792ae9007b11ad8e23ff89f6c1"
+  },
+  {
+    "path": "public/assets/research/touchpad-3-poster.jpg",
+    "size": 32711,
+    "sha256": "619e4a1ea689715a1d5fa1309620c9ab82fa70cc529562d6d254ccade2cee2ec"
+  },
+  {
+    "path": "public/assets/research/touchpad-3.mp4",
+    "size": 335800,
+    "sha256": "cf12e7329aa590932f5988c892232d4c57a856b43f2dcc26a849a6edfd460479"
+  },
+  {
+    "path": "public/assets/research/touchpad-3.webm",
+    "size": 259394,
+    "sha256": "65db3c8c8f21a7de8e55cf94715c78cd75e0f4db8ee6d6a3630a675125e6cc8f"
+  },
+  {
+    "path": "public/assets/research/touchpad-4-hi-poster.jpg",
+    "size": 72346,
+    "sha256": "d571c04fc65d15c7f47dd676106d861730aa09cabebee392c72a4db95d61ff14"
+  },
+  {
+    "path": "public/assets/research/touchpad-4-hi.mp4",
+    "size": 771729,
+    "sha256": "38c8985208f31a9689ed71caa5e79dd06dfe96d5e646ef4f6c4b29a42f9cfda9"
+  },
+  {
+    "path": "public/assets/research/touchpad-4-hi.webm",
+    "size": 267635,
+    "sha256": "ed2c7a92cbf883f6800d17bd19049072d3de235831685926e3064529c9a2e3ce"
+  },
+  {
+    "path": "public/assets/research/touchpad-4-poster.jpg",
+    "size": 35024,
+    "sha256": "2f76209ef9fe9fea8520c3fa7aca52c5c6819ccb4131fffaa7ddb3b387c753cc"
+  },
+  {
+    "path": "public/assets/research/touchpad-4.mp4",
+    "size": 265300,
+    "sha256": "0e027c862585bbd349de02b3010a7ddaead325c56669c8bf96972897664309d0"
+  },
+  {
+    "path": "public/assets/research/touchpad-4.webm",
+    "size": 221868,
+    "sha256": "6aa8f40f1af690aa7da914d8ce009de93de3ede6d83c4ca2eacc1db43742974a"
+  },
+  {
+    "path": "public/assets/research/touchpad-5-hi-poster.jpg",
+    "size": 68152,
+    "sha256": "631ebe97635bebfc821d043046862a419d5d570dc69082e5e4a7d2a2b0f52d67"
+  },
+  {
+    "path": "public/assets/research/touchpad-5-hi.mp4",
+    "size": 361805,
+    "sha256": "87cfe7c3169f9602f264d0a5bab4d88cf337cd540d6977aa76de719ebd66d1cb"
+  },
+  {
+    "path": "public/assets/research/touchpad-5-hi.webm",
+    "size": 115837,
+    "sha256": "d830c1288a6bd4407de9ee63a739d7ec38ef36d5601f363af80196eba88e4959"
+  },
+  {
+    "path": "public/assets/research/touchpad-5-poster.jpg",
+    "size": 31395,
+    "sha256": "e3183f236d765a5bf9d0785fed6b71ad93eda247f999710cce4ed45059e4673d"
+  },
+  {
+    "path": "public/assets/research/touchpad-5.mp4",
+    "size": 140214,
+    "sha256": "4cabe82f6d95fc76e13732bc9fd58ff3b648b732b2d00c2fe9fd7d677bf10e98"
+  },
+  {
+    "path": "public/assets/research/touchpad-5.webm",
+    "size": 96956,
+    "sha256": "15cb29e503dcbf29c770386a4ffc330efab335d30df38980378ccd639ab0228b"
+  },
+  {
+    "path": "public/assets/research/touchpad-6-hi-poster.jpg",
+    "size": 63119,
+    "sha256": "dbfabcfb95b4bdc7baf1b3d1bed23bc4d472991a8cbb5350c2e5005d5220984d"
+  },
+  {
+    "path": "public/assets/research/touchpad-6-hi.mp4",
+    "size": 316391,
+    "sha256": "90ad60d85a67e85b0c34d30c5e44889ff4b2df1f730ce7d3972bb851b2e88e4a"
+  },
+  {
+    "path": "public/assets/research/touchpad-6-hi.webm",
+    "size": 101375,
+    "sha256": "202e46ff815a1613166100fdc407ccc037a1b11f778c7a70c1c3e5fb3291ef2c"
+  },
+  {
+    "path": "public/assets/research/touchpad-6-poster.jpg",
+    "size": 31601,
+    "sha256": "11266930a0d6478c32dc44a921fcf4ea5a7e822382fe0344eb20f2a34f2d52ba"
+  },
+  {
+    "path": "public/assets/research/touchpad-6.mp4",
+    "size": 123877,
+    "sha256": "3ae569febac155dc6df6944c133888d950fd4ce4ecf0a5c47a1d3ac5eaf02253"
+  },
+  {
+    "path": "public/assets/research/touchpad-6.webm",
+    "size": 85644,
+    "sha256": "acfcb4934428836ad6d3b2b35f4765fbdd4882ac4a0bd5ef5e0e7624181d0ed9"
+  },
+  {
+    "path": "public/assets/research/touchpad-demo.mp4",
+    "size": 246525,
+    "sha256": "88eea8b47719c0fc23bf9295b599935fe075d049241c3d0f09dfaad89b7d8231"
+  },
+  {
+    "path": "public/assets/research/touchpad-demo.webm",
+    "size": 333675,
+    "sha256": "fdaf4bc3eb17db0cb37b291265479890a3f2c8c914b80eef35c7a51a2c306595"
+  },
+  {
+    "path": "public/assets/research/touchpad-poster.jpg",
+    "size": 50898,
+    "sha256": "fbaa9db99a2bbf4f642c53a7e425f40eb3e825002d6fa697fb65c76a27603c24"
+  }
+]
