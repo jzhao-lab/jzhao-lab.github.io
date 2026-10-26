@@ -1,4 +1,4 @@
-# Junyi Zhao — academic website (updated source package)
+# Zhao Lab website — UW–Madison
 
 ## What is included
 
