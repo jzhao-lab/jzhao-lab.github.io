@@ -1,0 +1,70 @@
+
+name: Deploy Zhao Lab Website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build website
+        run: npm run build
+
+      - name: Find static website
+        id: site
+        shell: bash
+        run: |
+          if [ -f dist/client/index.html ]; then
+            echo "path=dist/client" >> "$GITHUB_OUTPUT"
+          elif [ -f dist/index.html ]; then
+            echo "path=dist" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::No prerendered index.html found."
+            echo "Build output:"
+            find dist -maxdepth 3 -type f | head -60 || true
+            exit 1
+          fi
+
+      - name: Prepare GitHub Pages
+        run: touch "${{ steps.site.outputs.path }}/.nojekyll"
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ steps.site.outputs.path }}
+
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
