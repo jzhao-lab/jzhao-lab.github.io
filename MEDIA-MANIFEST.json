@@ -115,6 +115,21 @@
     "sha256": "2e204fb0ada0822935395210194069bee5d47838662474ebed914851ad1ae82c"
   },
   {
+    "path": "public/assets/home/stanford-oval-full.jpg",
+    "size": 945306,
+    "sha256": "b2401cc6ef5311b8c53647677fa4a64c57e5b0bbe512315c7f4fba79b0f17128"
+  },
+  {
+    "path": "public/assets/home/stanford-quad-panorama.jpg",
+    "size": 586781,
+    "sha256": "8ab6eb2d2d436a1779e79bf99ba7384b05a70518f139fb9cbbf1d1c04750b901"
+  },
+  {
+    "path": "public/assets/home/stanford-quad-sunset.jpg",
+    "size": 502579,
+    "sha256": "44b57bb4ddc4ad5f7fb84c9b5715d01192b1ab83eff4ad280d431acc5e996fc3"
+  },
+  {
     "path": "public/assets/join/uw-madison.webp",
     "size": 288988,
     "sha256": "92f8d135776370ad22137e2932553452a95db6f286f1ddc9ce05abad9d04ee32"

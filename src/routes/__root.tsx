@@ -138,7 +138,9 @@ function RootComponent() {
       <div className={`min-h-screen ${light ? "light-page" : ""}`}>
         <Nav />
         <Outlet />
-        <footer className="border-t border-border py-10 text-center text-xs uppercase text-foreground/45">© {new Date().getFullYear()} Junyi Zhao</footer>
+        <footer className="border-t border-border py-10 text-center text-xs uppercase text-foreground/45">
+          © {new Date().getFullYear()} Junyi Zhao
+        </footer>
       </div>
     </QueryClientProvider>
   );

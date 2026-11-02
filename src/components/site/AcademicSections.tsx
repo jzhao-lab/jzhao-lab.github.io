@@ -55,7 +55,7 @@ function PublicationList({ category }: { category: string }) {
   return <ol className="divide-y divide-border">{publications.filter(p => p.category === category).map((p, i) => (
     <li key={`${p.title}-${i}`} className="py-7 first:pt-0">
       <h4 className="font-serif text-xl leading-snug text-foreground md:text-2xl">{p.title}</h4>
-      <p className="mt-3 text-sm leading-relaxed text-foreground/70">{p.authors}</p>
+      <p className="mt-3 text-sm leading-relaxed text-foreground/70">{p.authors.split(/(J\. Zhao)/g).map((part, i) => part === "J. Zhao" ? <strong key={i} className="font-semibold text-foreground">{part}</strong> : part)}</p>
       <p className="mt-2 font-sans text-lg text-gold">{p.venue}</p>
       <SourceLinks links={p.links} />
     </li>

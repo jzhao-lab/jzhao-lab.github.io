@@ -22,7 +22,7 @@ export const publications = [
     "category": "First-author publications",
     "title": "Waterproof and gel-free 3D E-textile systems for exercise physiology and clinical maternal health monitoring",
     "authors": "J. Zhao , C. Kim, W. Li, Z. Wen, Y. Wang, S. Chakrabartty, C. Wang",
-    "venue": "Submitted, 2025.",
+    "venue": "Preprint, 2026.",
     "links": [
       {
         "label": "Link",

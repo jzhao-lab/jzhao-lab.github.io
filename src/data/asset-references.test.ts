@@ -26,9 +26,8 @@ test("hosted asset pointers remain internal and contain valid file metadata", ()
   for (const entry of pointers) {
     const pointer = JSON.parse(readFileSync(join(assetDirectory, entry), "utf8"));
     assert.ok(pointer.url.startsWith("/assets/"), entry);
+    assert.ok(existsSync(join(sourceDirectory, "..", "public", pointer.url.slice(1))), `${entry}: ${pointer.url} missing from public/`);
     assert.ok(pointer.size > 0, entry);
-    const localFile = fileURLToPath(new URL(`../../public${decodeURIComponent(pointer.url)}`, import.meta.url));
-    assert.ok(existsSync(localFile), `Missing bundled file: ${pointer.url}`);
     assert.equal(pointer.version, 1, entry);
   }
 });

@@ -29,7 +29,7 @@ export function ResearchHighlight() {
     if (paused || interacting || !visible || reducedMotion) return;
     const timer = window.setInterval(() => {
       if (!document.hidden) setIndex(current => nextHighlight(current, 1, researchHighlights.length));
-    }, 9000);
+    }, 5000);
     return () => window.clearInterval(timer);
   }, [paused, interacting, visible, reducedMotion, index]);
 
