@@ -139,7 +139,7 @@ function RootComponent() {
         <Nav />
         <Outlet />
         <footer className="border-t border-border py-10 text-center text-xs uppercase text-foreground/45">
-          © {new Date().getFullYear()} Junyi Zhao. All rights reserved.
+          © {new Date().getFullYear()} Junyi Zhao. Website design, code, and original figures. All rights reserved.
         </footer>
       </div>
     </QueryClientProvider>
