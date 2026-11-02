@@ -1,5 +1,4 @@
-
-name: Deploy Zhao Lab Website
+name: Publish Zhao Lab website
 
 on:
   push:
@@ -18,53 +17,32 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build website
-        run: npm run build
-
-      - name: Find static website
-        id: site
-        shell: bash
-        run: |
-          if [ -f dist/client/index.html ]; then
-            echo "path=dist/client" >> "$GITHUB_OUTPUT"
-          elif [ -f dist/index.html ]; then
-            echo "path=dist" >> "$GITHUB_OUTPUT"
-          else
-            echo "::error::No prerendered index.html found."
-            echo "Build output:"
-            find dist -maxdepth 3 -type f | head -60 || true
-            exit 1
-          fi
-
-      - name: Prepare GitHub Pages
-        run: touch "${{ steps.site.outputs.path }}/.nojekyll"
-
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-
+      - name: Assemble and verify Lovable export
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/website"
+          cp -R public/assets "$RUNNER_TEMP/website/assets"
+          unzip -oq website-export.zip -d "$RUNNER_TEMP/website"
+          cd "$RUNNER_TEMP/website"
+          sha256sum --check --quiet SHA256SUMS.txt
+          test -s index.html
+          for page in research publications awards news activities join profile; do
+            test -s "$page/index.html"
+          done
+          rm -rf .github
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ${{ steps.site.outputs.path }}
-
-      - name: Deploy website
+          path: ${{ runner.temp }}/website
+      - name: Publish website
         id: deployment
         uses: actions/deploy-pages@v4
