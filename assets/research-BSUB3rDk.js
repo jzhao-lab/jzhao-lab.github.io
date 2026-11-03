@@ -1,0 +1,1 @@
+import{j as e}from"./index-C-nnUaJI.js";import{g as s}from"./AcademicSections-DsAzH2UZ.js";import{P as r}from"./PageHeading-CuKwg96J.js";import"./mail-BVrkwRe3.js";function i(){return e.jsxs("main",{className:"min-h-screen",children:[e.jsx(r,{title:"Research",subtitle:"Human-centered soft electronics for sensing, perception, and feedback."}),e.jsx(s,{})]})}export{i as component};

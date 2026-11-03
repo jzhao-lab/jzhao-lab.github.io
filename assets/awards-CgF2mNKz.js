@@ -1,0 +1,1 @@
+import{j as r}from"./index-C-nnUaJI.js";import{e as s}from"./AcademicSections-DsAzH2UZ.js";import{P as a}from"./PageHeading-CuKwg96J.js";import"./mail-BVrkwRe3.js";function t(){return r.jsxs("main",{className:"min-h-screen",children:[r.jsx(a,{title:"Awards",subtitle:"Honors and recognition across research and academic work."}),r.jsx(s,{})]})}export{t as component};

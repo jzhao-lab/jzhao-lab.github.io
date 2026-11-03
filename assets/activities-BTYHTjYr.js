@@ -1,0 +1,1 @@
+import{j as i}from"./index-C-nnUaJI.js";import{d as t}from"./AcademicSections-DsAzH2UZ.js";import{P as e}from"./PageHeading-CuKwg96J.js";import"./mail-BVrkwRe3.js";function r(){return i.jsxs("main",{className:"min-h-screen",children:[i.jsx(e,{title:"Activities",subtitle:"Community outreach and STEM mentorship."}),i.jsx(t,{})]})}export{r as component};

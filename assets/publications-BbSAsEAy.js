@@ -1,0 +1,1 @@
+import{j as t}from"./index-C-nnUaJI.js";import{P as e}from"./AcademicSections-DsAzH2UZ.js";import{P as i}from"./PageHeading-CuKwg96J.js";import"./mail-BVrkwRe3.js";function r(){return t.jsxs("main",{className:"min-h-screen",children:[t.jsx(i,{title:"Publications",subtitle:"Journal articles, conference papers, and patents."}),t.jsx(e,{})]})}export{r as component};

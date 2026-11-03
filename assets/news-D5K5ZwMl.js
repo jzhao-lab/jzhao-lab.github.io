@@ -1,0 +1,1 @@
+import{j as e}from"./index-C-nnUaJI.js";import{f as s}from"./AcademicSections-DsAzH2UZ.js";import{P as t}from"./PageHeading-CuKwg96J.js";import"./mail-BVrkwRe3.js";function a(){return e.jsxs("main",{className:"min-h-screen",children:[e.jsx(t,{title:"News & Media",subtitle:"Research in the news."}),e.jsx(s,{})]})}export{a as component};
