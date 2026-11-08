@@ -32,6 +32,7 @@ jobs:
           mkdir -p "$RUNNER_TEMP/website"
           cp -R public/assets "$RUNNER_TEMP/website/assets"
           unzip -oq website-export.zip -d "$RUNNER_TEMP/website"
+          cp googleb15b0711ff8028a4.html "$RUNNER_TEMP/website/"
           cd "$RUNNER_TEMP/website"
           sha256sum --check --quiet SHA256SUMS.txt
           test -s index.html
