@@ -19,7 +19,9 @@ function NotFoundComponent() {
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
         <h1 className="text-7xl font-bold text-foreground">404</h1>
-        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>
+        <h2 className="mt-4 text-xl font-semibold text-foreground">
+          Page not found
+        </h2>
         <p className="mt-2 text-sm text-muted-foreground">
           The page you're looking for doesn't exist or has been moved.
         </p>
@@ -47,7 +49,8 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
           This page didn't load
         </h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          Something went wrong on our end. You can try refreshing or head back home.
+          Something went wrong on our end. You can try refreshing or head back
+          home.
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           <button
@@ -71,7 +74,67 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
   );
 }
 
-export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://jzhao-lab.github.io/#website",
+      url: "https://jzhao-lab.github.io/",
+      name: "Junyi Zhao",
+      alternateName: ["Junyi Zhao Lab", "Zhao Lab"],
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://jzhao-lab.github.io/#profile-page",
+      url: "https://jzhao-lab.github.io/",
+      isPartOf: {
+        "@id": "https://jzhao-lab.github.io/#website",
+      },
+      mainEntity: {
+        "@id": "https://jzhao-lab.github.io/#person",
+      },
+    },
+    {
+      "@type": "Person",
+      "@id": "https://jzhao-lab.github.io/#person",
+      name: "Junyi Zhao",
+      url: "https://jzhao-lab.github.io/",
+      image: "https://jzhao-lab.github.io/assets/home/headshot.jpg",
+      jobTitle: [
+        "Postdoctoral Scholar at Stanford University",
+        "Incoming Tenure-Track Assistant Professor at the University of Wisconsin–Madison, Fall 2027",
+      ],
+      affiliation: {
+        "@type": "Organization",
+        name: "Stanford University",
+        url: "https://www.stanford.edu/",
+      },
+      description:
+        "Junyi Zhao is a Postdoctoral Scholar at Stanford University working on human-centered soft electronics for healthcare, robotics, embodied intelligence, and micro/nanoelectronics. He will join the University of Wisconsin–Madison in Fall 2027 as a tenure-track Assistant Professor with a joint appointment in Mechanical Engineering and Electrical and Computer Engineering.",
+      sameAs: [
+        "https://scholar.google.com/citations?hl=en&user=VPZbFAkAAAAJ",
+        "https://www.linkedin.com/in/junyi-zhao-997487170/",
+        "https://x.com/JunyiZhao1997",
+      ],
+      knowsAbout: [
+        "Human-centered soft electronics",
+        "Bioelectronics",
+        "Wearable electronics",
+        "Digital healthcare",
+        "Robotics",
+        "Embodied intelligence",
+        "Human-computer interaction",
+        "Microelectronics",
+        "Nanoelectronics",
+      ],
+    },
+  ],
+};
+
+export const Route = createRootRouteWithContext<{
+  queryClient: QueryClient;
+}>()({
   head: () => ({
     meta: [
       { charSet: "utf-8" },
@@ -83,10 +146,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Junyi Zhao is a Postdoctoral Scholar at Stanford University working on human-centered soft electronics for sensing, interaction, and healthcare.",
       },
       { name: "author", content: "Junyi Zhao" },
+      { property: "og:site_name", content: "Junyi Zhao" },
       { property: "og:title", content: "Junyi Zhao — Stanford University" },
       {
         property: "og:description",
-        content: "Human-centered soft electronics: wearables, sensing, and HCI.",
+        content:
+          "Human-centered soft electronics: wearables, sensing, and HCI.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -119,6 +184,12 @@ function RootShell({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
+          }}
+        />
       </head>
       <body>
         {children}
@@ -139,7 +210,8 @@ function RootComponent() {
         <Nav />
         <Outlet />
         <footer className="border-t border-border py-10 text-center text-xs uppercase text-foreground/45">
-          © {new Date().getFullYear()} Junyi Zhao. Website design, code, and original figures. All rights reserved.
+          © {new Date().getFullYear()} Junyi Zhao. Website design, code, and
+          original figures. All rights reserved.
         </footer>
       </div>
     </QueryClientProvider>
